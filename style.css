@@ -212,7 +212,7 @@ button:hover {
 }
 
 #facebook::before {
-    content: url("https://i.ibb.co/W69PzFj/facebook48.png");
+    content: url("facebook48.png");
     margin: 10px;
     
 }
