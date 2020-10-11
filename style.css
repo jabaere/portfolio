@@ -1,0 +1,310 @@
+body {
+	background-color: #333333;
+	font-family: 'Architects Daughter', cursive;
+
+}
+* {
+	box-sizing: border-box;
+	margin-left:0;
+    margin-right:0;
+}
+main {
+	display:flex;
+	flex-direction: column;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	top:0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	}
+#header_up {
+	background-color: #333333;
+	 height: 75px;
+	 margin-top: 0;
+	 position: fixed;
+	 width: 100%;
+	}
+#header_down {
+background-color: #324B4C;  /* #518071 -es */  /*#787586*/    /*#158A8D es da sxva #324B4C */ /*#324B4C*/
+height: 66px;
+margin-top: 75px;
+width: 100%;
+}
+#navbar {
+  width: 100%;
+  padding: auto;
+  overflow: auto;
+   display: flex;   
+  justify-content: flex-end;  
+}
+.nav-link  {
+  float:right;
+  text-decoration: none;
+  color: white;
+  transition:  .4s;
+  font-size: 22px;
+  padding: 17px;
+  cursor: pointer;
+  max-width: 150px;
+  text-align: center;
+ }
+.nav-link:last-child {
+	margin-right: 15px;
+}
+.nav-link:hover {
+    background-color:  #FF8847;/*#444;*/
+  }
+#welcome-section {
+	padding-top:250px;
+	background-color: inherit;
+	text-align: center;
+	line-height: 10px;
+	height: 100vh;
+}
+#welcome-section > h1 {
+	
+}
+h1 {
+	color: white;
+	font-size: 60px;
+	font-family: 'Indie Flower', cursive;
+}
+p {
+	color: #FF8847; /*#158A8D*/
+	font-size: 35px;
+}
+
+#projects {
+    display: block;
+	width: 100%;
+	/*flex-direction: column;  ???*/
+	/*margin-top: 260px;*/
+	/*height: max-content;*/
+	background-color: #518071; /*#324B4C*/
+	/*left: 0;*/
+	/*right: 0;*/
+	margin: 0 auto;
+	}
+.card-container {
+display: flex;
+flex-flow: row wrap;
+ justify-content: space-around;
+ padding: 20px;
+  margin: 10px;
+}
+.card {
+ background-color: #f1f1f1;
+  width: 30%;
+ margin: 10px;
+  text-align: center;
+  height: 400px;
+  font-size: 30px;
+  display: flex;    /* ? */
+  flex-direction: column;  /* ? */
+ 
+}
+ h3 { 
+  float: center;
+	color: white;
+	/*padding-top: 40px;*/
+	line-height: 35px;
+	font-size: 45px;
+	max-width: 700px;
+	
+}
+.project-tile {
+	display: flex;
+	margin: 0 auto;
+	/*margin-bottom: 20px auto;*/
+	padding-top: -30x; 
+    border-bottom: 2px solid white;
+    max-width: 720px;
+    justify-content: center;
+    height: 135px;
+	text-align: center;
+   line-height:25px;
+}
+.container {
+	background-color: #324B4C; /*#008860*/
+	padding:0;
+	width:100%;
+	height: 75px;
+    margin-top: auto;   /*?*/
+	line-height: 25px;
+}
+img {
+	width: 100%;
+	height: 82%;
+}
+.card:hover h4::before {
+	content: "<";  /* ☶*/    /* ⚍*/
+	margin: 5px;
+	color: white;
+}
+.card:hover h4::after {
+	content: "/>";  /* ⚎*/
+	margin: 2px;
+	color: white;
+}
+h4 {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-size: 25px;
+}
+button {
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	margin-top: 30px;
+	max-width:150px;
+	font-size: 25px;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: bold;
+	background-color: #333333;
+	border: none;
+	color: white;
+	cursor: pointer;
+	transition:  .4s;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+button:hover {
+	background-color: #FF8847;
+}
+#section-end {
+	text-align: center;
+	line-height: 10px;
+	padding-top: 50px;
+   
+}
+
+#section-end > p {
+	color: #FF8847;
+	font-size: 20px;
+}
+.media-icon {
+    display: flex;
+    justify-content: space-around;
+    float: center;
+    text-align: center;
+    margin: 10px;
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+}
+#facebook, #twiter, #github, #email, #phone {
+    float: center;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    transition: ease-in-out  .5s;
+}
+#facebook:hover, #twiter:hover, #github:hover, #email:hover, #phone:hover {
+    padding-top: 20px;
+    
+}
+
+#facebook::before {
+    content: url("https://i.ibb.co/W69PzFj/facebook48.png");
+    margin: 10px;
+    
+}
+#twiter::before {
+    content: url("https://i.ibb.co/fNFVjSq/twiter48.png");
+    margin: 10px;
+}
+#github::before {
+    content: url("https://i.ibb.co/3hKXqPs/github48.png");
+    margin: 10px;
+}
+#email::before {
+    content: url("https://i.ibb.co/4PdTj47/email48.png");
+    margin: 10px;
+}
+#phone::before {
+    content: url("https://i.ibb.co/Fw8Cbmf/call48.png");
+    margin: 10px;
+}
+footer {
+    width: 100%;
+	border-top: 5px solid #518071; /*#008860*/
+	margin-top: 70px;
+	left: 0;
+	right: 0;
+}
+footer > p {
+	font-size : 20px;
+	color: #FF8847;
+	text-align: right;
+	padding: 15px;
+	margin-right: 65px;
+}
+
+@media screen and (max-width: 780px) {
+  .project-tile {
+    margin: 15px; 
+   height: auto;
+    line-height: 40px;
+  }
+  .card {
+	margin: 0 auto;
+	margin-bottom: 25px
+}
+h1 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+h3 {
+	margin-top: 10px;
+}
+.card-container {
+	display: flex;
+	flex-direction: column;
+	
+}
+.card {
+	width: 100%;
+}
+#header_down {
+		 display: flex;   
+		 justify-content: center;
+}
+.nav-link {
+
+    float: center;
+}
+h1 {
+	line-height: 50px;
+}
+.media-icon {
+	display: flex;
+	flex-direction: column;
+	max-width: 80%;
+	text-align: justify;
+	height: 650px;
+	}
+#facebook:hover, #twiter:hover, #github:hover, #email:hover, #phone:hover {
+    padding: 0;
+    
+}
+}
+@media screen and (max-width:1185px) {
+ #welcome-section {
+  	height: 100vh;
+  }
+   .project-tile {
+    height: auto;
+    line-height: 40px;
+	 max-width: 600px;
+  }
+ .media-icon {
+ margin: auto;
+
+ }
