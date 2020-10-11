@@ -217,19 +217,19 @@ button:hover {
     
 }
 #twiter::before {
-    content: url("https://i.ibb.co/fNFVjSq/twiter48.png");
+    content: url("twiter48.png");
     margin: 10px;
 }
 #github::before {
-    content: url("https://i.ibb.co/3hKXqPs/github48.png");
+    content: url("github48.png");
     margin: 10px;
 }
 #email::before {
-    content: url("https://i.ibb.co/4PdTj47/email48.png");
+    content: url("email48.png");
     margin: 10px;
 }
 #phone::before {
-    content: url("https://i.ibb.co/Fw8Cbmf/call48.png");
+    content: url("call48.png");
     margin: 10px;
 }
 footer {
