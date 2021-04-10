@@ -107,10 +107,10 @@ flex-flow: row wrap;
  
 }
  h3 { 
-  float: center;
+  
 	color: white;
 	/*padding-top: 40px;*/
-	line-height: 35px;
+	
 	font-size: 45px;
 	max-width: 700px;
 	
@@ -200,7 +200,7 @@ button:hover {
     height: 150px;
 }
 #facebook, #twiter, #github, #email, #phone {
-    float: center;
+   
     display: flex;
     align-items: center;
     line-height: 20px;
